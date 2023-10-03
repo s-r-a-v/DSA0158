@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int check(int num)
+{
+  int rem = 0, sum = 0;
+  while (num > 0)
+  {
+    rem = num % 10;
+    sum = sum + (rem *rem);
+    num /= 10;
+  }
+ 
+  return sum;
+}
+void isHappyNumber(int num)
+{
+  int result = num;
+  while (result != 1 && result != 4)
+  {
+    result = check(result);
+  }
+ 
+  if (result == 1)
+    cout << num << " is a happy number";
+  else
+  if (result == 4)
+    cout << num << " is NOT a happy number";
+}
+int main()
+{
+  int num;
+ 
+  cout << "Enter the number: ";
+  cin >> num;
+ 
+  isHappyNumber(num);
+  return 0;
+}

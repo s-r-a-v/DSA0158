@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int num1,num2;
+  cout<<"enter first integer";
+  cin>>num1;
+  cout<<"enter second integer";
+  cin>>num2;
+  cout<<"\nAddition:"<<num1+num2;
+  cout<<"\nsubtraction:"<<num1-num2;
+  cout<<"\nmultiplication:"<<num1*num2;
+  cout<<"\ndivision:"<<num1/num2;
+  cout<<"\nnmodulo:"<<num1%num2;
+  return 0;
+  
+}

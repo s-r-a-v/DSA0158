@@ -1,0 +1,23 @@
+#include<iostream>
+#include<cctype>
+using namespace std;
+int main()
+{
+  char c;
+  cout<<"enter a character\n";
+  cin>>c;
+  c=tolower(c);
+  if(c=='a'|| c=='e' || c=='i' || c=='o' || c=='u')
+  {
+    cout<<"the character is a vowel";
+  }
+  else if (isalpha(c))
+  {
+    cout<<"the character is consonent";
+  }
+  else
+  {
+    cout<<"the character is not a letter";
+  }
+  return 0;
+}

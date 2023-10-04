@@ -1,0 +1,15 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+  double number;
+  cout<<"enter a floating point number\n";
+  cin>>number;
+  double roundedDown=floor(number);
+  double roundedup=ceil(number);
+  cout<<"original number:"<<number<<ends;
+  cout<<"\nrounded down:"<<roundedDown<<ends;
+  cout<<"\nrounded up:"<<roundedup<<ends;
+  return 0;
+}

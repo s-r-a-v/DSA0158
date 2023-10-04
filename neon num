@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter an integer: ";
+    cin >> n;
+    int neon = pow(n, 2);
+    int sum = 0;
+    while (neon > 0) {
+        sum += neon % 10;
+        neon /= 10;
+    }
+    if (sum == n) {
+        cout << n << " is a neon number." << endl;
+    } else {
+        cout << n << " is not a neon number." << endl;
+    }
+    return 0;
+}

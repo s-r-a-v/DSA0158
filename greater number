@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int num1,num2;
+  cout<<"enter first number and ";
+  cin>>num1;
+  cout<<"enter second number\n";
+  cin>>num2;
+  int greater=(num1>num2?num1:num2);
+    cout<<"the greater number is:"<<greater << ends;
+  return 0;
+}

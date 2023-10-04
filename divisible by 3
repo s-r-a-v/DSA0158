@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int num;
+  cout<<"enter an integer";
+  cin>>num;
+  cout<<"the number\n"<<num<<" is "<<(num%3==0 ? " divisible ":" not divisible ")<<"by 3";
+  return 0;
+}

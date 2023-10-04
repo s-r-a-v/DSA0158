@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int num1,num2;
+  cout<<"first number\n";
+  cin>>num1;
+  cout<<"second number\n";
+  cin>>num2;
+  if(num1==num2)
+  {
+    cout<<"the number is equal\n"<<ends;
+  }
+  else
+  {
+    cout<<"number is not equal\n"<<ends;
+  }
+  return 0;
+}
